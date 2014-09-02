@@ -4,8 +4,6 @@ See this live at http://static.herchel.com/wipe-test
 
 IOS devices freeze DOM animations during scroll, and will apply them afterwards causing an unpleasant jump.
 
-This demo uses CSS 2D animations to do the transitions for best performance.
-
 Further reading:
 
 * [The Problem With Mobile Scroll Events](http://andyshora.com/mobile-scroll-event-problems.html)

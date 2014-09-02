@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image: url(http://placekitten.com/g/600/300);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+div {
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  font-size: 1.5em;
+  width: 100%;
+}
+a {
+  color: white;
+}
+.wrapper {
+  padding: 0;
+}
+#first {
+  height: 100vh; /*so you can scroll*/
+}
+#second {
+  height: 100vh;               
+  background-image: url(http://placekitten.com/g/600/300/?a);
+}

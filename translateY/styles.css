@@ -27,7 +27,4 @@ a {
 #second {
   position: fixed;                  
   background-image: url(http://placekitten.com/g/600/300/?a);
-  height: 100vh;
-  transform: translateY(100vh);
-  -webkit-transform: translateY(100vh);
 }
