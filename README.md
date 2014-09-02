@@ -1,5 +1,7 @@
 #Wipe Test for Mobile
 
+See this live at http://static.herchel.com/wipe-test
+
 IOS devices freeze DOM animations during scroll, and will apply them afterwards causing an unpleasant jump.
 
 This demo uses CSS 2D animations to do the transitions for best performance.
