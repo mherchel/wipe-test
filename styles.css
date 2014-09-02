@@ -15,13 +15,19 @@ div {
 a {
   color: white;
 }
+.wrapper {
+  padding: 0;
+  height: 200vh;
+}
 #first {
-  position: absolute;
+  position: fixed;
   background-image: url(http://placekitten.com/g/600/300);
   height: 200%; /*so you can scroll*/
-  background-attachment: fixed;
 }
 #second {
   position: fixed;                  
-  background-image: url(http://placekitten.com/g/600/300/?a); 
+  background-image: url(http://placekitten.com/g/600/300/?a);
+  height: 100vh;
+  transform: translateY(100vh);
+  -webkit-transform: translateY(100vh);
 }
